@@ -1,0 +1,24 @@
+/* .ant-modal-content{
+  width: 400px !important;
+} */
+
+
+.Addform .ant-form-item-label > label,
+#Editform .ant-form-item-label > label {
+  width: 120px;
+  display: block;
+  line-height: 32px;
+  text-align: right;
+}
+.Addform .btnline,
+#Editform .btnline {
+  text-align: right;
+}
+.Addform .btnline .ant-btn,
+#Editform .btnline .ant-btn {
+  margin-right: 10px;
+}
+.Addform .btnline button,
+#Editform .btnline button {
+  padding: 0 20px;
+}

@@ -1,0 +1,79 @@
+/*wholewindow*/
+.ant-layout {
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.ant-progress {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/*headerTop*/
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.headerTopLeft {
+  margin: 6px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.headerTopRight {
+  margin: 10px;
+}
+
+/*leftpart*/
+.user {
+  height: 110px;
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.uesrPic {
+  margin: 22px;
+}
+
+.zh {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: large;
+  color: black;
+}
+
+.zz {
+  color: #8f8c8c;
+}
+
+.ant-layout-sider,
+.ant-layout-sider-dark,
+.ant-layout-sider-has-trigger,
+.ant-layout-sider-children {
+  background-color: white !important;
+  min-height: 100vh;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+  color: black;
+}
+
+.ant-menu {
+  background-color: white !important;
+  color: black !important;
+}
+
+/*rightpart*/
+
+/*rightpart*/
+/*header*/
+.css-dev-only-do-not-override-mxhywb {
+  padding: 0;
+}

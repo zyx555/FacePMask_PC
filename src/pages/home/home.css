@@ -27,8 +27,12 @@
     display: flex;
     border-bottom:1px solid #f5f5f5;
   }
+  
   .uesrPic{
     margin:22px;
+  }
+  .usrInfo{
+    
   }
   .zh{
     margin-top: 25px;
@@ -55,3 +59,6 @@
     color:black !important;
   }
   /*rightpart*/
+  
+  /*rightpart*//*header*/
+  

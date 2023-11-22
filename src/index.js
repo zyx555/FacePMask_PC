@@ -2,16 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import Login from './pages/login';/* 登录 */
+import Home from './pages/home';/* 首页 */
+import Door from "./components/use/door";
+import Face from "./components/use/face";
+import Prime from "./components/use/prime";
+import Work from "./components/use/work";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} >
+          <Route path='/home/prime' element={<Prime />} />
+          <Route path='/home/door' element={<Door />} />
+          <Route path='/home/face' element={<Face />} />
+          <Route path='/home/work' element={<Work />} />
+        </Route>
+      </Route>
+
+    </Routes>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+//ReactDOM.render(<App />, document.getElementById("root"));
